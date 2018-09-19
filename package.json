@@ -1,0 +1,31 @@
+{
+  "name": "exploreapi",
+  "version": "1.0.0",
+  "description": "Backend REST API for the Explore application",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --recursive ./tests && npm run lint",
+    "dev": "nodemon index.js | bunyan",
+    "lint": "eslint ."
+  },
+  "author": "Kraken",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "bunyan": "^1.8.12",
+    "express": "^4.16.3",
+    "express-ws": "^4.0.0",
+    "mongoose": "^5.2.15",
+    "morgan": "^1.9.0",
+    "mysql2": "^1.5.3",
+    "sequelize": "^4.37.7",
+    "sinon": "^5.0.7"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "eslint": "^4.19.1",
+    "mocha": "^5.1.1",
+    "nodemon": "^1.17.4",
+    "sequelize-mock": "^0.10.2"
+  }
+}
