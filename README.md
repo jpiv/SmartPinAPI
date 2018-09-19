@@ -1,3 +1,2 @@
-## ExploreAPI
+## Smart Pin API
 ---
-Explore app's REST API
