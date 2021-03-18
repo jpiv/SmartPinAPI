@@ -15,7 +15,6 @@ exerciseRouter.get('/', (req, res) => {
 
 // POST routes
 exerciseRouter.post('/', (req, res) => {
-	log.info('here')
 	ExerciseApi
 		.createExercise()
 		.then(() => HttpUtils.sendResponse(res))
